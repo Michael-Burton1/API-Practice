@@ -3,10 +3,10 @@ import mercuryAge from '../src/js/scripts.js';
 describe('mercuryAge',() =>{
   let returnedArray= []
   beforeEach(() =>{
-    returnedArray=[0,0,0,0,0];
+    returnedArray=[10,9,8,7,6];
   })
   test('should return an age', () =>{
-    expect(mercuryAge(returnedArray[1]).toEqual(0))
+    expect(mercuryAge(returnedArray)).toEqual([10,9,8,7,6])
   });
 });
 // Person Class

@@ -1,3 +1,3 @@
-export function mercuryAge(returnedArray){
+export default function mercuryAge(returnedArray){
 
 };

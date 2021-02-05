@@ -1,0 +1,14 @@
+A. I need to create a function that takes an input( their age on earth) from the user and returns their age on different planets.
+
+  I need to 
+  1. create an obect of someone's age on earth.
+  2. create differnt funtions to take that age and calculate their age (a differnt function for each planet) on Mercury, Venus, Mars, and Jupiter.
+  3. return the calculated age to the user.
+
+B. I then I need to:
+  1.create values for "life expectancy" for earth  
+  2. compare that to users inputted age (converted for each planet) to determine how long they have left to live on each planet
+  3. return a message alerting user how long they have to live. 
+  4. return a message  alerting user how long they have lived over life expectancy.
+
+  EASY!

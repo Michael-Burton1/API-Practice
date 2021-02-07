@@ -11,7 +11,7 @@ describe('mercuryAge',() =>{
     
     let inputAge = 1
     // returnedArray=[10,9,8,7,6];
-  })
+  });
   // test('should return an age', () =>{
   //   expect(mercuryAge(returnedArray)).toEqual([10,9,8,7,6])
   // });
@@ -19,6 +19,27 @@ describe('mercuryAge',() =>{
     expect(mercuryAge()).toEqual(4)
   });
 });
+
+describe('venusAge',() =>{
+  beforeEach(() =>{
+    let inputAGE =1
+  });
+  test('should take inputAge and divide by VenusMultiplyer', () =>{
+    expect(Math.round(venusAge() * 10 /10)).toEqual(1.6)
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
 // Person Class
 
 // const { TestScheduler } = require("jest");

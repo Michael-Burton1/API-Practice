@@ -1,8 +1,8 @@
-class Person {
-  //setup
-  constuctor () {
-    console.log('The person is being created')
-  }
-}
+// class Person {
+//   //setup
+//   constuctor () {
+//     console.log('The person is being created');
+//   }
+// }
 
-let myPerson1 = new Person();
+// // let myPerson1 = new Person();

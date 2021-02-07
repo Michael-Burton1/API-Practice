@@ -1,12 +1,22 @@
+import { TestScheduler } from 'jest';
 import mercuryAge from '../src/js/scripts.js';
+import mercuryOutput from '../src/js/scripts.js';
+import inputAge from '../src/js/scripts.js';
+
+
 
 describe('mercuryAge',() =>{
-  let returnedArray= []
+  // let returnedArray= []
   beforeEach(() =>{
-    returnedArray=[10,9,8,7,6];
+    
+    let inputAge = 1
+    // returnedArray=[10,9,8,7,6];
   })
-  test('should return an age', () =>{
-    expect(mercuryAge(returnedArray)).toEqual([10,9,8,7,6])
+  // test('should return an age', () =>{
+  //   expect(mercuryAge(returnedArray)).toEqual([10,9,8,7,6])
+  // });
+  test('should take inputAge and divide by mercuryMulitplier', () =>{
+    expect(mercuryAge()).toEqual(4)
   });
 });
 // Person Class

@@ -1,3 +1,5 @@
-export default function mercuryAge(returnedArray){
-
+let inputAge = 1
+let mercuryOutput = 0
+export default function mercuryAge(){
+ 
 };

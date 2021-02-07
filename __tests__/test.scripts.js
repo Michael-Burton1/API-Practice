@@ -1,5 +1,5 @@
 import { TestScheduler } from 'jest';
-import mercuryAge from '../src/js/scripts.js';
+import {mercuryAge, venusAge} from '../src/js/scripts.js';
 import mercuryOutput from '../src/js/scripts.js';
 import inputAge from '../src/js/scripts.js';
 
@@ -25,7 +25,7 @@ describe('venusAge',() =>{
     let inputAGE =1
   });
   test('should take inputAge and divide by VenusMultiplyer', () =>{
-    expect(Math.round(venusAge() * 10 /10)).toEqual(1.6)
+    expect(Math.round(venusAge()) * 10 /10).toEqual(1.6)
   });
 });
 

@@ -25,7 +25,7 @@ describe('venusAge',() =>{
     let inputAGE =1
   });
   test('should take inputAge and divide by VenusMultiplyer', () =>{
-    expect(Math.round(venusAge()) * 10 /10).toEqual(1.6)
+    expect(venusAge()).toEqual(1.6)
   });
 });
 

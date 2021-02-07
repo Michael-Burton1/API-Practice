@@ -1,5 +1,5 @@
 import { TestScheduler } from 'jest';
-import {mercuryAge, venusAge, marsAge} from '../src/js/scripts.js';
+import {mercuryAge, venusAge, marsAge, jupiterAge} from '../src/js/scripts.js';
 import mercuryOutput from '../src/js/scripts.js';
 import inputAge from '../src/js/scripts.js';
 
@@ -36,12 +36,12 @@ describe('marsAge',() =>{
 });
 
 describe('jupiterAge',() =>{
-  beforeEach(() =>{
-    let inputAge = 10
-  });
-  test('should take inputAge and divide by jupiterMultiplyer. Then round result to nearest hundreth',() =>{
-    expect(jupiterAge()).toEqual(.84)
-  });
+beforeEach(() =>{
+  let inputAge = 10
+});
+test('should take inputAge and divide by jupiterMultiplyer. Then round result to nearest hundreth',() =>{
+  expect(jupiterAge()).toEqual(.84)
+});
 });
 
 

@@ -12,3 +12,6 @@ export function venusAge(){
   venusOutput = Math.round((inputAge / venusMultiplyer)*10)/ 10;
   return venusOutput;
 };
+
+export function marsAge(){
+}

@@ -31,7 +31,7 @@ describe('marsAge',() =>{
     let inputAge = 1
   });
   test('should take inputAge and divide by marsMultiplyer. Then round result to nearest tenth',() =>{
-    expect (marsAge()).toEqual(.53)
+    expect(marsAge()).toEqual(.53)
   });
 });
 

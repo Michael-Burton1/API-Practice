@@ -35,7 +35,14 @@ describe('marsAge',() =>{
   });
 });
 
-
+describe('jupiterAge',() =>{
+  beforeEach(() =>{
+    let inputAge = 10
+  });
+  test('should take inputAge and divide by jupiterMultiplyer. Then round result to nearest hundreth',() =>{
+    expect(jupiterAge()).toEqual(.84)
+  });
+});
 
 
 

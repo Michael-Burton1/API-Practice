@@ -13,7 +13,7 @@ describe('mercuryAge',() =>{
     returnedArray=[10,9,8,7,6];
   });
   test('should take inputAge and divide by mercuryMulitplier', () =>{
-    expect(mercuryAge()).toEqual(4)
+    expect(mercuryAge()).toEqual(4.2)
   });
 });
 
@@ -40,7 +40,7 @@ beforeEach(() =>{
   let inputAge = 10
 });
 test('should take inputAge and divide by jupiterMultiplyer. Then round result to nearest hundreth',() =>{
-  expect(jupiterAge()).toEqual(.84)
+  expect(jupiterAge()).toEqual(.084)
 });
 });
 

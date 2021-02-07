@@ -4,8 +4,8 @@ let venusOutput = 0
 let marsOutput = 0
 let jupiterOutput= 0
 export function mercuryAge(){
-  const mercuryMultiplyer = .25
-  mercuryOutput = (inputAge / mercuryMultiplyer);
+  const mercuryMultiplyer = .24
+  mercuryOutput = Math.round((inputAge / mercuryMultiplyer)*10)/10;
   return mercuryOutput;
 };
 
@@ -21,5 +21,7 @@ export function marsAge(){
   return marsOutput;
 };
 export function jupiterAge(){
-
+  const jupiterMultiplyer = 11.86
+  jupiterOutput = Math.round((inputAge / jupiterMultiplyer)*1000)/ 1000;
+  return jupiterOutput;
 };
